@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	font:Verdana, Arial, Helvetica, sans-serif; font-size:13px;
+	background-color:#000000;
+}
+#body {
+	/*line-height: 10px;*/
+	height: 100%;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+#logo {
+	letter-spacing: 3px;
+	height: 70px;
+	font-size: 25px;
+	font-weight: bold;	/*background-color:#FFFDFE;*/
+}
+#intro {
+	text-align: right;
+	font-size:12px;
+	font-weight: normal;
+}
+#intro a{
+	color:#006600;
+	text-decoration: none;
+}
+#form {
+	
+}
+#form1 {
+	height: 500px;
+}
+#base {
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+}
+#request {
+	font-size: 15px;
+	height: 30px;
+	padding: 5px;
+}
+#search {
+	font-size:15px;
+	color:#FFFFFF;
+	height: 40px;
+	background-color:#006600;
+	padding: 10px;
+	border: thin inset #CCCCCC;
+}
+#play{
+	background-image: url(../image/sound1.ico);
+	background-repeat: no-repeat;
+}
+#stop{
+	background-image: url(../image/sound2.jpg);
+	background-repeat: no-repeat;
+}
+#scontent {
+	border: thin solid #009900;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	letter-spacing: 1px;
+}
+#stitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #009900;
+	margin-bottom: 10px;
+}
+#sbody {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #999999;
+	line-height: 20px;
+}
+img {
+	padding: 10px;
+}
+
+#body #form #barcontent {
+	line-height: 15px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	height: 450px;
+}
+#body #form #barcontent a {
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 16px;
+}
+#body #form #barcontent a:hover {
+	color: #CCCCCC;
+	background-color: #00CC00;
+}
+#result {
+	padding: 10px;
+	/*border: thin solid #CCCCCC;*/
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-right: 20%;
+	margin-bottom: 20px;
+	margin-left: 20%;
+}
